@@ -1,0 +1,127 @@
+html,body{
+  height:99%;
+}
+body{
+  position: relative;
+}
+.pattern-curve{
+  position: absolute;
+  bottom: 0;
+  width:40%;
+}
+.base{
+  position: relative;
+  width:80%;
+  margin-left:10%;
+  margin-right: 7%;
+  height:85%;
+}
+.container-1{
+position: absolute;
+z-index: 1;
+height:100%;
+width:47%;
+color: hsl(240, 38%, 20%);
+font-size: 32px;
+padding-top: 18%;
+left:8%;
+font-family: 'Inter', sans-serif;
+}
+.container-2{
+  position: absolute;
+  right:0;
+  height:100%;
+  width:50%;
+}
+.pattern-bg{
+  height:100%;
+  width:100%;
+}
+.tanya{
+  margin: auto;
+  width:80%;
+  height:80%;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.pattern-quotes{
+  position: absolute;
+  left:25%;
+  margin-bottom: 200%;
+}
+.name{
+font-weight:700;
+font-size:24px;
+}
+.designation{
+font-size:22px;
+color:hsl(240, 18%, 77%);
+}
+.button{
+  position: absolute;
+  padding:25px;
+  top:84%;
+  left:20%;
+  z-index: 4;
+  background-color: White;
+  border-radius: 30%;
+  box-shadow: 10px 20px 50px grey;
+}
+.inactive{
+  display:none;
+}
+@media screen and (max-width:600px)
+{
+   .base{
+     width:90%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin:auto;
+   }
+  .container-1{
+   position: relative;
+   width:100%;
+   font-size: 24px;
+   justify-content: center;
+   top:10%;
+   text-align: center;
+   padding-top: 0;
+   left:0;
+  }
+  .container-2{
+  position: relative;
+  width:100%;
+  top:40px;
+  height:60%;
+
+  }
+  .pattern-bg{
+
+  }
+  .tanya{
+
+  }
+  .pattern-quotes{
+    width:20%;
+    left:0;
+    right:0;
+    margin:auto;
+  }
+  .pattern-curve{
+    width:60%;
+  }
+  .name{
+   font-size: 15px;
+   display: block;
+  }
+  .designation{
+   font-size: 17px;
+  }
+  .button{
+    padding:10px;
+    left:40%;
+  }
+  .inactive{
+    display:none;
+  }
+}
